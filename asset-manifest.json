@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/SaladBar/static/js/main.8e047af1.chunk.js",
-    "main.js.map": "/SaladBar/static/js/main.8e047af1.chunk.js.map",
+    "main.js": "/SaladBar/static/js/main.f1eac11c.chunk.js",
+    "main.js.map": "/SaladBar/static/js/main.f1eac11c.chunk.js.map",
     "runtime-main.js": "/SaladBar/static/js/runtime-main.c5d35b57.js",
     "runtime-main.js.map": "/SaladBar/static/js/runtime-main.c5d35b57.js.map",
     "static/js/2.484c95e2.chunk.js": "/SaladBar/static/js/2.484c95e2.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.c5d35b57.js",
     "static/js/2.484c95e2.chunk.js",
-    "static/js/main.8e047af1.chunk.js"
+    "static/js/main.f1eac11c.chunk.js"
   ]
 }
