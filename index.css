@@ -1,6 +1,5 @@
 
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -31,14 +30,18 @@ header{
     height: 609px;
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.3)), url("./images/Home.jpg");
-    /* background-image: url("./images/Home.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
 }
 
-
+.MenuNavBar{
+    display: flex;
+    position: relative;
+    background-color: rgb(95, 86, 86);
+    opacity: .8;
+}
 
 .navImg{
     border-radius: 50%;
@@ -627,7 +630,7 @@ height: 100%;
         margin-left: 20%;
     }
     .contactButton{
-        margin-left: 45%;
+        margin-left: 38%;
         width: 69px;
         height: 28px;
         font-size: 68%;
@@ -728,4 +731,71 @@ height: 100%;
         width: 60%;
        
     }
+}
+
+
+
+/* MENU Page  */
+
+
+
+
+.menuListContainer{
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    /* border: 2px solid black; */
+    height: 460px;
+    width: 800px;
+}
+
+.menuListContainer img{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    transform: scale(1);
+    outline: none;
+    transition: transform 0.5s;
+}
+
+.menuListContainer img:hover {
+    transform: scale(1.1);
+    outline: none;
+}
+
+.menuListContainer h1{
+    position: absolute;
+    top: -9px;
+    left: 20px;
+    
+}
+.menuListContainer h4{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    font-size: 30px;
+    
+}
+.menuListContainer ul{
+    position: absolute;
+    top: 160px;
+    right: 65px;
+   
+}
+.menuListContainer ul li{
+    margin: 15px;
+   
+}
+
+.box a{
+display: flex;
+/* border: 2px solid red; */
+margin-left: 49%;
+margin-top: 3%;
+margin-bottom: 3%;
+
 }

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/SaladBar/static/js/main.5b1c6bb2.chunk.js",
-    "main.js.map": "/SaladBar/static/js/main.5b1c6bb2.chunk.js.map",
+    "main.js": "/SaladBar/static/js/main.69997d4b.chunk.js",
+    "main.js.map": "/SaladBar/static/js/main.69997d4b.chunk.js.map",
     "runtime-main.js": "/SaladBar/static/js/runtime-main.c5d35b57.js",
     "runtime-main.js.map": "/SaladBar/static/js/runtime-main.c5d35b57.js.map",
-    "static/js/2.fa306bdb.chunk.js": "/SaladBar/static/js/2.fa306bdb.chunk.js",
-    "static/js/2.fa306bdb.chunk.js.map": "/SaladBar/static/js/2.fa306bdb.chunk.js.map",
+    "static/js/2.1a4b2f41.chunk.js": "/SaladBar/static/js/2.1a4b2f41.chunk.js",
+    "static/js/2.1a4b2f41.chunk.js.map": "/SaladBar/static/js/2.1a4b2f41.chunk.js.map",
     "index.html": "/SaladBar/index.html",
-    "static/js/2.fa306bdb.chunk.js.LICENSE.txt": "/SaladBar/static/js/2.fa306bdb.chunk.js.LICENSE.txt"
+    "static/js/2.1a4b2f41.chunk.js.LICENSE.txt": "/SaladBar/static/js/2.1a4b2f41.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c5d35b57.js",
-    "static/js/2.fa306bdb.chunk.js",
-    "static/js/main.5b1c6bb2.chunk.js"
+    "static/js/2.1a4b2f41.chunk.js",
+    "static/js/main.69997d4b.chunk.js"
   ]
 }
