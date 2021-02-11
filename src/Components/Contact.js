@@ -1,4 +1,4 @@
-import Reacr from "react"
+import React from "react"
 
 
 function Contact() {
@@ -29,7 +29,7 @@ function Contact() {
                 <input className="news" type="checkbox" name="news" />
             </div>
             <div>
-                {/* <label className="textarealable" for="name">Write to us!</label> */}
+               
                 <textarea className="textarea" name="message" placeholder="Your message..." />
             </div>
             <div>

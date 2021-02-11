@@ -16,7 +16,7 @@ function PlanContainer(props) {
         </ul>
          </div>
          <div className="boxBottom">
-         <button  type="submit">Sign Up Now!</button>
+         <button  type="submit">Order Now!</button>
          </div>
     </div>
 }

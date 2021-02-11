@@ -1,4 +1,4 @@
-import Reacr from "react"
+import React from "react"
 import customerReviewList from "../customerReviewList";
 import CustomerReview from "./CustomerReview";
 
