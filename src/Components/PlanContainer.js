@@ -1,5 +1,5 @@
 import React from "react"
-import {Redirect} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 function PlanContainer(props) {
     return <div className="planBox">
@@ -17,7 +17,7 @@ function PlanContainer(props) {
         </ul>
          </div>
          <div className="boxBottom">
-         <button onClick={() =>{ return <Redirect to="/menu"/>} } type="submit">Order Now!</button>
+         <NavLink to="/menu"><button type="submit">Order Now!</button></NavLink>
          </div>
     </div>
 }
