@@ -1,5 +1,6 @@
 {
   "name": "saladbar2",
+  "homepage": "http://gauravsp1.github.io/SaladBar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
