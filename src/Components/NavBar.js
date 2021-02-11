@@ -7,7 +7,7 @@ function NavBar(){
         <img className="navImg " src="./images/logo.jpg"/>
         <ul className="navList">
         <li className="navItem">HOME</li>
-            <li className="navItem">MENU</li>
+            <li className="navItem"><a href="#menu">MENU</a></li>
             <li className="navItem"><a href="#location">LOCATION</a></li>
             <li className="navItem"><a href="#plan">SIGN UP</a></li>
         </ul>
