@@ -13,11 +13,12 @@ function PlanContainer(props) {
             <li>{props.list}</li>
             <li>24/7 delivery</li>
             <li>Premium menu</li>
-            <li>Freey delivery</li>
+            <li>Free delivery</li>
         </ul>
          </div>
          <div className="boxBottom">
-         <NavLink to="/menu"><button type="submit">Order Now!</button></NavLink>
+         <button type="submit">Order Now!</button>
+         {/* <NavLink to="/menu"><button type="submit">Order Now!</button></NavLink> */}
          </div>
     </div>
 }
