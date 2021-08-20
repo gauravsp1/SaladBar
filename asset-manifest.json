@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/SaladBar/static/js/main.c3c80f89.chunk.js",
-    "main.js.map": "/SaladBar/static/js/main.c3c80f89.chunk.js.map",
+    "main.js": "/SaladBar/static/js/main.ab2778e9.chunk.js",
+    "main.js.map": "/SaladBar/static/js/main.ab2778e9.chunk.js.map",
     "runtime-main.js": "/SaladBar/static/js/runtime-main.c5d35b57.js",
     "runtime-main.js.map": "/SaladBar/static/js/runtime-main.c5d35b57.js.map",
     "static/css/2.c55f41dc.chunk.css": "/SaladBar/static/css/2.c55f41dc.chunk.css",
-    "static/js/2.c3fb92e2.chunk.js": "/SaladBar/static/js/2.c3fb92e2.chunk.js",
-    "static/js/2.c3fb92e2.chunk.js.map": "/SaladBar/static/js/2.c3fb92e2.chunk.js.map",
+    "static/js/2.80f4cae5.chunk.js": "/SaladBar/static/js/2.80f4cae5.chunk.js",
+    "static/js/2.80f4cae5.chunk.js.map": "/SaladBar/static/js/2.80f4cae5.chunk.js.map",
     "index.html": "/SaladBar/index.html",
     "static/css/2.c55f41dc.chunk.css.map": "/SaladBar/static/css/2.c55f41dc.chunk.css.map",
-    "static/js/2.c3fb92e2.chunk.js.LICENSE.txt": "/SaladBar/static/js/2.c3fb92e2.chunk.js.LICENSE.txt"
+    "static/js/2.80f4cae5.chunk.js.LICENSE.txt": "/SaladBar/static/js/2.80f4cae5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c5d35b57.js",
     "static/css/2.c55f41dc.chunk.css",
-    "static/js/2.c3fb92e2.chunk.js",
-    "static/js/main.c3c80f89.chunk.js"
+    "static/js/2.80f4cae5.chunk.js",
+    "static/js/main.ab2778e9.chunk.js"
   ]
 }
