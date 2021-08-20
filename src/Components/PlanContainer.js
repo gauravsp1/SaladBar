@@ -5,6 +5,7 @@ function PlanContainer(props) {
     const history = useHistory();
 
     function handleOrder(params) {
+        console.log("Pushed");
         history.push({
             pathname: "/order",
             state: {
