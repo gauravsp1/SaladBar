@@ -6,7 +6,7 @@ import Plan from './Plan';
 function Order(props) {
     const plan = props?.location?.state?.title
     const price = props?.location?.state?.price
-
+console.log("Plan",plan);
 function payAmount(){
 toast.success("Amount Payed")
 }

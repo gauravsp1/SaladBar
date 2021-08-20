@@ -6,6 +6,7 @@ function PlanContainer(props) {
 
     function handleOrder(params) {
         console.log("Pushed");
+        console.log("Pushed2",params.title);
         history.push({
             pathname: "/order",
             state: {
