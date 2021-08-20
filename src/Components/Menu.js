@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MenuNavBar from "./MenuNavBar";
 import MenuListInfo from "../MenuListInfo";
 import MenuList from "./MenuList";
 import {NavLink} from "react-router-dom"
 
 function Menu(){
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
     return <>
     <MenuNavBar/>
     <div className="box">

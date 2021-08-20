@@ -2,6 +2,7 @@ import {Route,Switch} from "react-router"
 import { HashRouter as Router } from 'react-router-dom'
 import Home from "./Components/Home";
 import Menu from "./Components/Menu";
+import Order from "./Components/Menu";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Switch>
     <Route exact path="/menu" component={Menu} />
     <Route exact path="/" component={Home} />
+    <Route exact path="/order" component={Order} />
     </Switch>
     </Router>
     </>

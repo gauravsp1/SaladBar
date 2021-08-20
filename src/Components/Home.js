@@ -1,4 +1,4 @@
- import React  from "react";
+ import React, { useEffect }  from "react";
 import NavBar from "./NavBar";
 import Feature from "./Feature";
 import Info from "./Info";
@@ -15,7 +15,9 @@ import Plan from "./Plan";
 
 
 function Home() {
-
+   useEffect(()=>{
+      window.scrollTo(0,0)
+    },[])
 
     return (
       <>

@@ -1,6 +1,12 @@
 import React from "react"
+import { useHistory } from "react-router-dom";
 
 function MenuList(props){
+    const history = useHistory();
+
+    function handleOrder() {
+        history.push("/order")
+    }
 return <>
 <div className="menuListContainer">
 <h1>{props.index}. {props.name}</h1>
@@ -12,7 +18,9 @@ return <>
     <li>{props.ingredient3}</li>
     <li>{props.ingredient4}</li>
 </ul>
-
+<div className="menuOrder">
+         <button onClick={handleOrder} type="submit">Order Now!</button>
+         </div>
 </div>
 
 </>
