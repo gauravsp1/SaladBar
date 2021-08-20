@@ -13,19 +13,12 @@ toast.success("Amount Payed")
     return (
         <>
             <MenuNavBar />
-           
-                {plan ? (<div className="Order">
+           <div className="Order">
                     <h1>Meal plan selected {plan}</h1>
                     <h3>Amount to be paid</h3>
                     <h3>₹{price}</h3>
                     <button className="payButton" onClick={payAmount}>Pay</button>
                 </div>
-                ) : (
-                    <Plan />
-                )}
-           
-
-
         </>
     )
 }
