@@ -5,7 +5,7 @@ function MenuList(props){
     const history = useHistory();
 
     function handleOrder() {
-        history.push("/order")
+        history.push("/plan")
     }
 return <>
 <div className="menuListContainer">
@@ -18,9 +18,9 @@ return <>
     <li>{props.ingredient3}</li>
     <li>{props.ingredient4}</li>
 </ul>
-{/* <div className="menuOrder">
+<div className="menuOrder">
          <button onClick={handleOrder} type="submit">Order Now!</button>
-         </div> */}
+         </div>
 </div>
 
 </>
